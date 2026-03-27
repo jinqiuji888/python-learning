@@ -1,0 +1,8 @@
+a=input("first number :")   #input()用户输入
+print(a)
+b=input("second number :")
+print(b)
+print(a+b)                  #input()得到字符串，拼接a与b
+a=int(input("first number :"))    #int(）得到整数
+b=int(input("second number :"))
+print(a+b)
