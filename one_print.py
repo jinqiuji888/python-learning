@@ -1,5 +1,5 @@
 print("hellow world")
-print(2+3）
+print(2+3）   #求计算结果时不能带“=”号
 a=3
 b=4
 result=a+b
