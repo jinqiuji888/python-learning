@@ -1,0 +1,28 @@
+a=input("first number :")   #input()用户输入
+
+print(a)
+b=input("second number :")
+print(b)
+print(a+b)                  #input()得到字符串，拼接a与b
+
+a=int(input("first number :"))    #int(）得到整数
+b=int(input("second number :"))
+print(a+b)
+
+def add():     #def 定义一个函数，给这段代码取名。#不要忘了：
+    print(2+3)
+add()          #调用函数
+
+def add(a,b):
+    print(a+b)
+add(3,5) 
+
+def add(a,b):
+    print(a+b)
+result=add(2,3)
+print(result)      #1，2.3例子使用print，结果没有返回，输出None
+
+def add(a,b):
+    return a+b     #return
+result=add(2,3)
+print(result)
